@@ -25,7 +25,7 @@ export default function Home() {
           padding: "100px",
         }}
       >
-        <button onClick={() => dispatch(increment())}>incremnt</button>
+        <button onClick={() => dispatch(increment())}>increment</button>
         <button onClick={() => dispatch(decrement())}>decrement</button>
       </div>
     </div>
